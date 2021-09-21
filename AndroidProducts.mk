@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_platina.mk
+    $(LOCAL_DIR)/xdroid_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_platina-user \
-    arrow_platina-userdebug \
-    arrow_platina-eng
+    xdroid_platina-user \
+    xdroid_platina-userdebug \
+    xdroid_platina-eng
