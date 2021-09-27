@@ -24,6 +24,8 @@ $(call inherit-product, vendor/xdroid/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+XDROID_BOOT_DARK := true
+XDROID_UI_BLUR := true
 
 # Inherit from platina device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
