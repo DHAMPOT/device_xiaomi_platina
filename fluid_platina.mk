@@ -19,12 +19,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common ArrowOs stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Fluid stuff
+$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-ARROW_BUILD_TYPE := DHAMPOT
+FLUID_BUILD_TYPE := DHMPT
 
 # Inherit from platina device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -32,7 +32,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := platina
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := arrow_platina
+PRODUCT_NAME := fluid_platina
 PRODUCT_MODEL := MI 8 Lite
 
 DEVICE_MAINTAINER := D4rkKnight21
